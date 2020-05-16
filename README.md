@@ -6,7 +6,7 @@
 $ docker build --pull -t raanglada/jenkins-dod:0.0.1 .
 ```
 
-note: use always --pull option to use always the latest jenkins image and avoid security issues and the warning in jenkins dashboard
+note: use always --pull option to get latest jenkins image
 
 ## How to use
 
