@@ -31,3 +31,5 @@ $ docker run --name jenkins-dod \
 sudo apt install jq
 curl -s -k "http://user:password@localhost:8080/pluginManager/api/json?depth=1"  | jq -r '.plugins[].shortName' | tee plugins
 ```
+
+note: you should have jq installed first
